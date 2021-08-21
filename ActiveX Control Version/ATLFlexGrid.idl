@@ -1,0 +1,47 @@
+// ATLFlexGrid.idl : IDL source for ATLFlexGrid
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ATLFlexGrid.tlb) and marshalling code.
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(597703fe-bb31-4284-a9d7-7a4278fafe4e),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IATLFlxGrd : IDispatch
+{
+};
+
+[
+	uuid(5a5d544b-b4bc-4e16-8288-fc0fe0549f8e),
+	version(1.0),
+]
+library ATLFlexGridLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(194a03a6-1d47-4904-b068-cbac359a3853)
+	]
+	dispinterface _IATLFlxGrdEvents
+	{
+		properties:
+		methods:
+	};
+	[
+		uuid(567b651f-8f5b-447f-b6ad-d95c0c1a0259),
+		control
+	]
+	coclass ATLFlxGrd
+	{
+		[default] interface IATLFlxGrd;
+		[default, source] dispinterface _IATLFlxGrdEvents;
+	};
+};
+

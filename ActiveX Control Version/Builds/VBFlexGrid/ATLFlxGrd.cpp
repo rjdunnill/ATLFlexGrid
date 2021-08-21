@@ -1,3 +1,11 @@
+// ATLFlxGrd.cpp : Implementation of CATLFlxGrd
+#include "pch.h"
+#include "ATLFlxGrd.h"
+
+
+// CATLFlxGrd
+
+/*
 VERSION 5.00
 Begin VB.UserControl VBFlexGrid 
    Alignable       =   -1  'True
@@ -13602,3 +13610,4 @@ End Select
 WindowProcUserControl = FlexDefaultProc(hWnd, wMsg, wParam, lParam)
 If wMsg = WM_SETFOCUS And UCNoSetFocusFwd = False Then SetFocusAPI VBFlexGridHandle
 End Function
+*/

@@ -1,3 +1,18 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+    uuid(97B0A48E-75C6-4CB9-BA54-F05190C24CAB),
+    version(1.0),
+    hidden,
+    dual,
+    nonextensible,
+    oleautomation
+]
+interface IVBFlexDataSource : IDispatch
+{
+
+    /*
 VERSION 1.0 CLASS
 BEGIN
   MultiUse = -1  'True
@@ -32,3 +47,5 @@ End Function
 Public Sub SetData(ByVal Field As Long, ByVal Record As Long, ByVal NewData As String)
 Attribute SetData.VB_Description = "Interface method for updating the new data information supplied by the consumer."
 End Sub
+    */
+};

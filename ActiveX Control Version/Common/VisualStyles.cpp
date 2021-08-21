@@ -1,3 +1,6 @@
+#include "pch.h"
+
+/*
 Attribute VB_Name = "VisualStyles"
 Option Explicit
 Public Declare Function ActivateVisualStyles Lib "uxtheme" Alias "SetWindowTheme" (ByVal hWnd As Long, Optional ByVal pszSubAppName As Long = 0, Optional ByVal pszSubIdList As Long = 0) As Long
@@ -39,3 +42,4 @@ If Done = False Then
 End If
 GetComCtlVersion = Value
 End Function
+*/

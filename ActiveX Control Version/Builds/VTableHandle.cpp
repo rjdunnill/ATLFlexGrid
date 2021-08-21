@@ -1,3 +1,6 @@
+#include "pch.h"
+
+/*
 Attribute VB_Name = "VTableHandle"
 Option Explicit
 
@@ -780,3 +783,4 @@ End Function
 Private Function IEnumVARIANT_Clone(ByRef This As VTableEnumVARIANTDataStruct, ByRef ppEnum As IEnumVARIANT) As Long
 IEnumVARIANT_Clone = E_NOTIMPL
 End Function
+*/

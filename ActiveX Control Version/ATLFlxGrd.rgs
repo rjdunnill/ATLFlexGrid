@@ -1,0 +1,32 @@
+HKCR
+{
+	ATL.FlexGrid.1 = s 'ATLFlxGrd class'
+	{
+		CLSID = s '{567b651f-8f5b-447f-b6ad-d95c0c1a0259}'
+	}
+	ATL.FlexGrid = s 'ATLFlxGrd class'
+	{		
+		CurVer = s 'ATL.FlexGrid.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {567b651f-8f5b-447f-b6ad-d95c0c1a0259} = s 'ATLFlxGrd class'
+		{
+			ProgID = s 'ATL.FlexGrid.1'
+			VersionIndependentProgID = s 'ATL.FlexGrid'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove Control
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 106'
+			MiscStatus = s '0'
+			{
+			    '1' = s '%OLEMISC%'
+			}
+			TypeLib = s '{5a5d544b-b4bc-4e16-8288-fc0fe0549f8e}'
+			Version = s '1.0'
+		}
+	}
+}

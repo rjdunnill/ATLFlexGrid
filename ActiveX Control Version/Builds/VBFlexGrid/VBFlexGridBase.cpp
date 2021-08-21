@@ -1,3 +1,6 @@
+#include "pch.h"
+
+/*
 Attribute VB_Name = "VBFlexGridBase"
 Option Explicit
 
@@ -331,3 +334,4 @@ FlexPreTranslateMsgHookProc = CallNextHookEx(FlexPreTranslateMsgHookHandle, nCod
 End Function
 
 #End If
+*/
